@@ -6,6 +6,15 @@ package coachmanagementcode;
 public class Town {
 
     private boolean issOverNighStop;
+    private int price;
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
 
     public boolean issOverNighStop() {
         return issOverNighStop;
