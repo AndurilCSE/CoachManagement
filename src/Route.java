@@ -11,6 +11,7 @@ public class Route {
     private String duration;
     private List<Town> towns;
     private boolean isServiceRequire;
+    private int abc;
 
 
     public double getLength() {
