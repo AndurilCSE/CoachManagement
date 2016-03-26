@@ -8,7 +8,6 @@ public class BookingManager {
     private Individual individual;
     private String uniqueCode;
     private String startDate;
-    private Route aRoute;
     private BusDriver aDriver;
 
     public void book(){
@@ -37,14 +36,6 @@ public class BookingManager {
 
     public void setStartDate(String startDate) {
         this.startDate = startDate;
-    }
-
-    public Route getaRoute() {
-        return aRoute;
-    }
-
-    public void setaRoute(Route aRoute) {
-        this.aRoute = aRoute;
     }
 
     public BusDriver getaDriver() {
