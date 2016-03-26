@@ -10,7 +10,6 @@ public class BookingManager {
     private String startDate;
     private Route aRoute;
     private BusDriver aDriver;
-    private CoachMan coach;
 
     public void book(){
 
@@ -56,11 +55,4 @@ public class BookingManager {
         this.aDriver = aDriver;
     }
 
-    public CoachMan getCoach() {
-        return coach;
-    }
-
-    public void setCoach(CoachMan coach) {
-        this.coach = coach;
-    }
 }
