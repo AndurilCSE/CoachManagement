@@ -8,7 +8,7 @@ public class Bill {
     private String dateOfUse;
     private String noOfIndividual;
     private String town;
-    private String abs1;
+    private String abs2;
 
     public String getDateOfUse() {
         return dateOfUse;
